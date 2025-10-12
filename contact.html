@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="album.html">ALBUM</a></li>
+                        <li><a href="album.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+    </section>
+    <section>
+        <main>
+            <div class="container">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <h2>Contact Julius</h2>
+                    <hr>
+                    <input type="hidden" name="access_key" value="3a2a29a0-5032-458f-91e8-aa78dcf63d95">
+                    <input type="name" name="name" placeholder="Enter name" required>
+
+                    <input type="email" name="email" placeholder="Enter E-mail address" required>
+
+                    <textarea name="message" id="message" placeholder="Enter your message" required></textarea>
+                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                    <button class="submit-button" type="submit">submit</button>
+
+                </form>
+            </div>
+        </main>
+    </section>
+
+</body>
+
+</html>
